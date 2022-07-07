@@ -33,7 +33,7 @@ public class LoginPage {
 	private By registerLink = By.linkText("Register");
 
 	//4. Page Actions
-	@Step("getting login page title details....")
+	@Step("getting login page title details.... dummy")
 	public String getLoginPageTitle() {
 		return eleUtil.doGetTitleWithFraction(Constants.LOGIN_PAGE_TITLE, Constants.DEFAULT_TIME_OUT);
 	}
